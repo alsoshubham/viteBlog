@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { createContext, useState } from "react";
 import { baseUrl } from "../baseUrl";
 import PropTypes from "prop-types";
@@ -56,3 +57,5 @@ function AppContextProvider  ({children})  {
 
     return <AppContext.Provider value={value}>{children}</AppContext.Provider>
 }
+
+export default AppContextProvider;
