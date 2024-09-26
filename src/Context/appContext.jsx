@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import { createContext, useState } from "react";
 import { baseUrl } from "../baseUrl";
 import PropTypes from "prop-types";
@@ -15,7 +14,7 @@ function AppContextProvider  ({children})  {
     async function fetchBlogPosts(page=1){
         let url= `${baseUrl}?page${page}`
         setLoading(true);
-
+ 
         try{
             const result  = await fetch(url);
             const data = await result.json();
