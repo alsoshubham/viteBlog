@@ -1,9 +1,5 @@
-const pagging = () => {
-    return(
-        <div>
-
-        </div>
-    )
+export const Pagging = () => {
+  return (
+    <div>Pagging</div>
+  )
 }
-
-export default pagging;

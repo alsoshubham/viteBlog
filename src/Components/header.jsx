@@ -1,8 +1,9 @@
-const header = () => {
+/* eslint-disable no-unused-vars */
+import React from "react"
+export const Header = () => {
     return(
-        <div>
-        </div>
+       <div>
+        <header><h1>Hello</h1></header>
+       </div>
     )
 }
-
-export default header;

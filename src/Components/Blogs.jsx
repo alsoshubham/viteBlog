@@ -1,8 +1,7 @@
-const blogs = () => {
+export const Blogs = () => {
     return (
         <div>
             
         </div>
     )
 }
-export default blogs;
